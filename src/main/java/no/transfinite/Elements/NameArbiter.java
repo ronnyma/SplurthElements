@@ -12,10 +12,8 @@ class NameArbiter
 
         // Tokenize the name with the first letter of the symbol, max two tokens
         String[] token = name.split("(?i)" + symbol.substring(0, 1), 2);
-        if(token.length != 2) return false;
 
         //Return true iff the second letter of the symbol is contained in the second token
-        return token[1].contains(symbol.substring(1, 2));
-
+        return token.length != 2? false:token[1].contains(symbol.substring(1, 2));
     }
 }
