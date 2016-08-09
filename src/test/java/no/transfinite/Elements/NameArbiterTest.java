@@ -37,6 +37,7 @@ public class NameArbiterTest {
                 { "Spenglerium", "Ee", true },
                 { "Zeddemorium", "Zr", true },
                 { "Venkmine", "Kn", true },
+                { "Venkmine", "Nv", false },
                 { "Stantzon", "Zt", false },
                 { "Melintzum", "Nn", false },
                 { "Tullium", "Uu", true },
