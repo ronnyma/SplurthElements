@@ -10,7 +10,7 @@ class NameArbiter
         //If the length of the symbol is not two, report as false
         if (symbol.length() != 2) return false;
 
-        // Tokenize the name with the first letter of the symbol, max two tokens
+        // Tokenize the name with the first letter of the symbol, max two tokens, not case sensitive
         String[] token = name.split("(?i)" + symbol.substring(0, 1), 2);
 
         //Return true iff the second letter of the symbol is contained in the second token
