@@ -21,6 +21,7 @@ public class NameArbiterTest {
         na = new NameArbiter();
     }
 
+
     public NameArbiterTest(String name, String symbol, boolean expectedResult)
     {
         this.name = name;
@@ -28,6 +29,8 @@ public class NameArbiterTest {
         this.expectedResult = expectedResult;
     }
 
+    /**
+     * All tests from the website, not limited to. */
     @Parameterized.Parameters
     public static Collection primeNumbers() {
         return Arrays.asList(new Object[][] {
@@ -41,6 +44,8 @@ public class NameArbiterTest {
                 { "Tullium", "Ki", false },
                 { "Tullium", "Kif", false },
                 { "Zeddemorium", "Di", true },
+                { "Xenon", "Nn", true },
+                { "Xenon", "Xx", false },
         });
     }
 
