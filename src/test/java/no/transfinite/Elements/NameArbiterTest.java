@@ -1,13 +1,12 @@
 package no.transfinite.Elements;
 
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
 import java.util.Arrays;
 import java.util.Collection;
-import static org.junit.Assert.*;
-import org.junit.Test;
-import org.junit.Before;
-import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
-import org.junit.runner.RunWith;
+
 import static org.junit.Assert.assertEquals;
 /**
  * Created by ronnyma on 09/08/16.
