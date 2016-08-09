@@ -1,6 +1,6 @@
 # SplurthElements
 DZone Periodic Table
 
-Includes the first part, second maybe to come.
+class *NameArbiter* is the sole thing.
 
 **mvn test**
