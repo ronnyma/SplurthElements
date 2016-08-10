@@ -2,7 +2,7 @@
 DZone Periodic Table
 
 All good!
-
+NOT OPTIMIZED YET!
 **mvn test**
 
 -------------------------------------------------------
