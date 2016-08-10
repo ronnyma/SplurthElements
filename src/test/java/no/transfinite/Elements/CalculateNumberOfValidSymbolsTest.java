@@ -1,10 +1,55 @@
 package no.transfinite.Elements;
 
-import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import java.util.Arrays;
+import java.util.Collection;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by ronnyma on 10/08/16.
  */
-public class CalculateNumberOfValidSymbolsTest {
+@RunWith(Parameterized.class)
+public class CalculateNumberOfValidSymbolsTest
+{
 
+
+    @Before
+    public void initialize()
+    {
+        cs = new CalculateNumberOfValidSymbols();
+    }
+
+
+    public CalculateNumberOfValidSymbolsTest(String name, int validSymbols)
+    {
+        this.name = name;
+        this.symbol = validSymbols;
+    }
+
+    /**
+     * All tests from the website, not limited to.
+     */
+    @Parameterized.Parameters
+    public static Collection elements() {
+        return Arrays.asList(new Object[][]{
+                {"Zuulon", 11},
+                {"Argon", 10},
+                {"Xenon", 7},
+                {"Xenonon", 8},
+        });
+    }
+
+    @org.junit.Test
+    public void symbolIsValid() throws Exception {
+        assertEquals(symbol, cs.numberOfSymbols(name));
+    }
+
+    private CalculateNumberOfValidSymbols cs;
+
+    private String name;
+    private int symbol;
 }
