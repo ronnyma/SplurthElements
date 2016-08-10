@@ -3,9 +3,9 @@ package no.transfinite.Elements;
 /**
  * Created by ronnyma on 10/08/16.
  */
-class SymbolGenerator
+public class SymbolGenerator
 {
-    String generateSymbol(String elementName)
+    public String generateSymbol(String elementName)
     {
         //Find the lowest ascii value from idx 0 to l-1
         char[] s = new char[2];

@@ -3,7 +3,7 @@ package no.transfinite.Elements;
 /**
  * Created by ronnyma on 09/08/16.
  */
-class NameArbiter
+public class NameArbiter
 {
     public boolean isValid(String name, String symbol)
     {
