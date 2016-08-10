@@ -31,7 +31,7 @@ public class NameArbiterTest {
     /**
      * All tests from the website, not limited to. */
     @Parameterized.Parameters
-    public static Collection primeNumbers() {
+    public static Collection Elements() {
         return Arrays.asList(new Object[][] {
                 { "Spenglerium", "Ee", true },
                 { "Zeddemorium", "Zr", true },
@@ -46,6 +46,8 @@ public class NameArbiterTest {
                 { "Zeddemorium", "Di", true },
                 { "Xenon", "Nn", true },
                 { "Xenon", "Xx", false },
+                { "Xenon", "Ox", false },
+
         });
     }
 
