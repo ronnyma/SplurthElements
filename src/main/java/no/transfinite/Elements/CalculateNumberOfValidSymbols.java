@@ -4,6 +4,9 @@ import java.util.HashMap;
 
 /**
  * Created by ronnyma on 10/08/16.
+ * This works by generating all possible symbols
+ * adhering to the rule set. Duplicates are eliminated by
+ * inserting the symbol as a key in a hash in O(1).
  */
 public class CalculateNumberOfValidSymbols
 {
