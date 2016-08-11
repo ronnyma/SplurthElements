@@ -48,6 +48,8 @@ public class NameValidatorTest {
                 { "Xenon", "Xx", false },
                 { "Xenon", "Ox", false },
                 { "Xenon", "O", false },
+                { "Helium", "He", true },
+                { "Helium", "Me", false },
 
         });
     }
