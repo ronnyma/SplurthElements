@@ -38,8 +38,11 @@ public class CalculateNumberOfValidSymbolsTest
         return Arrays.asList(new Object[][]{
                 {"Zuulon", 11},
                 {"Argon", 10},
-                {"Xenon", 7},
-                {"Xenonon", 8},
+                {"Xenon", 8},
+                {"Xenno", 7},
+                {"Xenonon", 9},
+                {"Xenonooooooooooooooooooooon", 9},
+                {"Xenonooooooooooooooooooooonnnnnnnononononon", 9},
         });
     }
 

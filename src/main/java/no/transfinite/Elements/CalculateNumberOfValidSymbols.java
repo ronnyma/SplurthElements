@@ -14,8 +14,8 @@ public class CalculateNumberOfValidSymbols
         HashMap<String, Integer> cache = new HashMap<String, Integer>();
         char[] s = new char[2];
 
-        //Loop through the string, juxtapose character n with m
-        //having n > m, advancing m first
+        //Loop through the string, juxtapose characters in positions n and m
+        //having indices n < m, advancing m through elementName for every advance of n
         for(int i = 0; i < elementName.length(); i++)
         {
             s[0] = elementName.toLowerCase().charAt(i);
@@ -26,7 +26,7 @@ public class CalculateNumberOfValidSymbols
                 cache.put(new String(s),0);
             }
         }
-        
+
         return cache.size();
     }
 }
