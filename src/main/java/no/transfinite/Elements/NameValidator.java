@@ -2,8 +2,8 @@ package no.transfinite.Elements;
 
 /**
  * Created by ronnyma on 09/08/16.
- * This work by splitting the name with the first letter of the symbol
- * as delimiter in two string segments. Then it checks for the second
+ * This works by splitting the name with the first letter of the symbol
+ * as delimiter into two string segments. Then it checks for the second
  * letter of the symbol in the last segment. If it exists, it is guaranteed
  * that the symbol is valid for the name.
  */
