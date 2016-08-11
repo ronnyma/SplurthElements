@@ -4,7 +4,7 @@ package no.transfinite.Elements;
  * Created by ronnyma on 10/08/16.
  * This works by iterating through the element name.
  * First it finds the letter with smallest value withing
- * the words exaluding the last letter. Then, it searches
+ * the words excluding the last letter. Then, it searches
  * for the smallest again, limited to the letters with indices
  * greater than the first letter it found.
  */
