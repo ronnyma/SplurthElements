@@ -41,6 +41,7 @@ public class CalculateNumberOfValidSymbolsTest
                 {"Xenonon", 9},
                 {"Xenonooooooooooooooooooooon", 9},
                 {"Xenonooooooooooooooooooooonnnnnnnononononon", 9},
+                {"Abcdek", 15},
         });
     }
 

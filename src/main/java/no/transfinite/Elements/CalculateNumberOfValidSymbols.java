@@ -19,7 +19,7 @@ public class CalculateNumberOfValidSymbols
 
         //Loop through the string, juxtapose characters in positions n and m
         //having indices n < m, advancing m through elementName for every advance of n
-        for(int i = 0; i < elementName.length(); i++)
+        for(int i = 0; i < elementName.length()-1; i++)
         {
             s[0] = elementName.toLowerCase().charAt(i);
 
