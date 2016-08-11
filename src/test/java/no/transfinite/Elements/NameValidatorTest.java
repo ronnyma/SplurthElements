@@ -13,15 +13,15 @@ import static org.junit.Assert.assertEquals;
  */
 
 @RunWith(Parameterized.class)
-public class NameArbiterTest {
+public class NameValidatorTest {
 
     @Before
     public void initialize() {
-        na = new NameArbiter();
+        na = new NameValidator();
     }
 
 
-    public NameArbiterTest(String name, String symbol, boolean expectedResult)
+    public NameValidatorTest(String name, String symbol, boolean expectedResult)
     {
         this.name = name;
         this.symbol = symbol;
@@ -56,7 +56,7 @@ public class NameArbiterTest {
         assertEquals(expectedResult, na.isValid(name, symbol));
     }
 
-    private NameArbiter na;
+    private NameValidator na;
 
     private String name;
     private String symbol;

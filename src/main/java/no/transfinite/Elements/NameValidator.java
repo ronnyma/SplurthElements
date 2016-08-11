@@ -7,7 +7,7 @@ package no.transfinite.Elements;
  * letter of the symbol in the last segment. If it exists, it is guaranteed
  * that the symbol is valid for the name.
  */
-public class NameArbiter
+public class NameValidator
 {
     public boolean isValid(String name, String symbol)
     {
