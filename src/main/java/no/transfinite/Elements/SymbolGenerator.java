@@ -2,6 +2,11 @@ package no.transfinite.Elements;
 
 /**
  * Created by ronnyma on 10/08/16.
+ * This works by iterating through the element name.
+ * First it finds the letter with smallest value withing
+ * the words exaluding the last letter. Then, it searches
+ * for the smallest again, limited to the letters with indices
+ * greater than the first letter it found.
  */
 public class SymbolGenerator
 {
@@ -22,7 +27,9 @@ public class SymbolGenerator
                 idx = ++i;
             }
         }
-        //Find the lowest ascii value from idx to l, inclusive.
+        //Find the lowest ascii value from index of the
+        //first letter + 1 to l, inclusive (i.e. in the
+        //string segment after the first letter
         for(int i = idx; i < elementName.length(); i++)
         {
             if (elementName.toLowerCase().charAt(i) < s[1])
