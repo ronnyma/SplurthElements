@@ -1,6 +1,7 @@
 package no.transfinite.Elements;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by ronnyma on 10/08/16.
