@@ -27,7 +27,7 @@ public class CalculateNumberOfValidSymbols
             for(int j = i+1; j < elementName.length(); j++)
             {
                 s[1] = elementName.toLowerCase().charAt(j);
-                cache.put(new String(s),0);
+                cache.put(new String(s), 0);
             }
         }
 
