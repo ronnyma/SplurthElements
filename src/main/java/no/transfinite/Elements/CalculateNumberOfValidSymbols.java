@@ -14,7 +14,7 @@ public class CalculateNumberOfValidSymbols
     public int numberOfSymbols(String elementName)
     {
         //We'll use a hash as a comparison utility
-        HashMap<String, Integer> cache = new HashMap<String, Integer>();
+        Map<String, Integer> cache = new HashMap<String, Integer>();
         char[] s = new char[2];
 
         //Loop through the string, juxtapose characters in positions n and m
