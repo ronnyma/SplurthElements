@@ -34,6 +34,7 @@ public class SymbolGeneratorTest {
         return Arrays.asList(new Object[][] {
                 { "Gozerium", "Ei" },
                 { "Slimyrine", "Ie" },
+                { "Titanium", "Ai" },
         });
     }
 
