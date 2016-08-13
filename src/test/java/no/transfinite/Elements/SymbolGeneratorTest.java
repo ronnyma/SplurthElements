@@ -35,9 +35,8 @@ public class SymbolGeneratorTest {
                 { "Gozerium", "Ei" },
                 { "Slimyrine", "Ie" },
                 { "Titanium", "Ai" },
-                { "Titanium", "Tm" },
-                { "Uranium", "Uu" },
-                { "Plutonium", "Pt" },
+                { "Uranium", "Ni" },
+                { "Plutonium", "Im" },
         });
     }
 
