@@ -36,6 +36,8 @@ public class SymbolGeneratorTest {
                 { "Slimyrine", "Ie" },
                 { "Titanium", "Ai" },
                 { "Titanium", "Tm" },
+                { "Uranium", "Uu" },
+                { "Plutonium", "Pt" },
         });
     }
 
