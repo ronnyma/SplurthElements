@@ -20,23 +20,15 @@ public class SymbolGenerator
 
         //Find the lowest ascii value from 0 to l-1.
         for(int i = 1; i < elementName.length()-1; i++)
-        {
-            if (elementName.toLowerCase().charAt(i) < s[0])
-            {
+            if (elementName.toLowerCase().charAt(i) < s[0]) {
                 s[0] = elementName.charAt(i);
                 idx = i;
             }
-        }
         //Find the lowest ascii value from index of the
         //first letter + 1 to l, inclusive (i.e. in the
         //string segment after the first letter
         for(int i = idx+1; i < elementName.length(); i++)
-        {
-            if (elementName.toLowerCase().charAt(i) < s[1])
-            {
-                s[1] = elementName.charAt(i);
-            }
-        }
+            if (elementName.toLowerCase().charAt(i) < s[1]) s[1] = elementName.charAt(i);
         s[0] = Character.toUpperCase(s[0]);
 
         return new String(s);
