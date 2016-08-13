@@ -24,13 +24,13 @@ public class SymbolGenerator
             if (elementName.toLowerCase().charAt(i) < s[0])
             {
                 s[0] = elementName.charAt(i);
-                idx = ++i;
+                idx = i;
             }
         }
         //Find the lowest ascii value from index of the
         //first letter + 1 to l, inclusive (i.e. in the
         //string segment after the first letter
-        for(int i = idx; i < elementName.length(); i++)
+        for(int i = idx+1; i < elementName.length(); i++)
         {
             if (elementName.toLowerCase().charAt(i) < s[1])
             {
