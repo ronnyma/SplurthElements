@@ -46,7 +46,7 @@ public class CalculateNumberOfValidSymbolsTest
     }
 
     @org.junit.Test
-    public void symbolIsValid() throws Exception {
+    public void symbolIsValid() {
         assertEquals(symbol, cs.numberOfSymbols(name));
     }
 

@@ -44,7 +44,7 @@ public class SymbolGeneratorTest {
     }
 
     @org.junit.Test
-    public void symbolIsValid() throws Exception {
+    public void symbolIsValid() {
         assertEquals(symbol, sg.generateSymbol(name));
     }
 

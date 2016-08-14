@@ -55,7 +55,7 @@ public class NameValidatorTest {
     }
 
     @org.junit.Test
-    public void isValid() throws Exception {
+    public void isValid() {
         assertEquals(expectedResult, na.isValid(name, symbol));
     }
 
