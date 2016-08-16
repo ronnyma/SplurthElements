@@ -1,4 +1,4 @@
-package no.transfinite.Elements;
+package no.transfinite.elements;
 
 /**
  * Created by ronnyma on 10/08/16.

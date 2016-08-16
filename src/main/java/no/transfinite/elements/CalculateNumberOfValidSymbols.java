@@ -1,4 +1,4 @@
-package no.transfinite.Elements;
+package no.transfinite.elements;
 
 import java.util.HashMap;
 import java.util.Map;

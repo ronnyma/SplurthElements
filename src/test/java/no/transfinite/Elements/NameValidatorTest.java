@@ -1,5 +1,6 @@
 package no.transfinite.Elements;
 
+import no.transfinite.elements.NameValidator;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
