@@ -1,6 +1,5 @@
-package no.transfinite.Elements;
+package no.transfinite.elements;
 
-import no.transfinite.elements.SymbolGenerator;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -16,10 +15,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class SymbolGeneratorTest {
 
-    @Before
-    public void initialize() {
-        sg = new SymbolGenerator();
-    }
 
 
     public SymbolGeneratorTest(String name, String symbol)
@@ -27,6 +22,12 @@ public class SymbolGeneratorTest {
         this.name = name;
         this.symbol = symbol;
     }
+
+    @Before
+    public void initialize() {
+        sg = new SymbolGenerator();
+    }
+
 
     /**
      * All tests from the website, not limited to. */

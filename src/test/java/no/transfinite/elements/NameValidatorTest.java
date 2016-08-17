@@ -1,6 +1,5 @@
-package no.transfinite.Elements;
+package no.transfinite.elements;
 
-import no.transfinite.elements.NameValidator;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -16,10 +15,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class NameValidatorTest {
 
-    @Before
-    public void initialize() {
-        na = new NameValidator();
-    }
 
 
     public NameValidatorTest(String name, String symbol, boolean expectedResult)
@@ -27,6 +22,11 @@ public class NameValidatorTest {
         this.name = name;
         this.symbol = symbol;
         this.expectedResult = expectedResult;
+    }
+
+    @Before
+    public void initialize() {
+        na = new NameValidator();
     }
 
     /**

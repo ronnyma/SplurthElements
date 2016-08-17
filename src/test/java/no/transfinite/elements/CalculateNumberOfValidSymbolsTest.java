@@ -1,6 +1,5 @@
-package no.transfinite.Elements;
+package no.transfinite.elements;
 
-import no.transfinite.elements.CalculateNumberOfValidSymbols;
 import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -16,11 +15,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class CalculateNumberOfValidSymbolsTest
 {
-    @Before
-    public void initialize()
-    {
-        cs = new CalculateNumberOfValidSymbols();
-    }
 
 
     public CalculateNumberOfValidSymbolsTest(String name, int validSymbols)
@@ -29,6 +23,13 @@ public class CalculateNumberOfValidSymbolsTest
         this.symbol = validSymbols;
     }
 
+    @Before
+    public void initialize()
+    {
+        cs = new CalculateNumberOfValidSymbols();
+    }
+
+    
     /**
      * All tests from the website, not limited to.
      */
