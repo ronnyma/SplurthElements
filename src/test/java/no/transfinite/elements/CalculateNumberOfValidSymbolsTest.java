@@ -29,7 +29,7 @@ public class CalculateNumberOfValidSymbolsTest
         cs = new CalculateNumberOfValidSymbols();
     }
 
-    
+
     /**
      * All tests from the website, not limited to.
      */
