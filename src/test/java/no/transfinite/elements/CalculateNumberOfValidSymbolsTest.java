@@ -44,7 +44,8 @@ public class CalculateNumberOfValidSymbolsTest
                 {"Xenonooooooooooooooooooooon", 9},
                 {"Xenonooooooooooooooooooooonnnnnnnononononon", 9},
                 {"Abcdek", 15},
-                {"Albatrosz", 31}
+                {"Albatrosz", 31},
+                {"GrekerGreker", 16}
         });
     }
 
